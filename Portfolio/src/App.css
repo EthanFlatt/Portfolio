@@ -4,40 +4,91 @@
 }
 
 .nav-links {
-  display: flex;
+  margin: 0 auto;
+  background-color: black;
   border: 10px solid black;
   border-radius: 100px;
-  width: 40vw;
-  text-align: center;
-}
-
-.nav-links li {
-  display: inline;
-  
-}
-
-.nav-link {
-  width: 5%
+  height: 4rem;
+  width: 40rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 .nav-links a {
+  height: 100%;
+  width: 15%;
+  padding: 12px;
   color: white;
-  height: 20px;
-  width: 20px;
   background-color: gray;
-  border-radius: 100px
+  border-radius: 100px;
+  text-decoration: none;
+  font-size: 2em
 }
-
-
 
 .aboutPage {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  border: 40px solid black;
+  margin: 0 auto;
+  max-width: 90%;
+  background-color: rgb(251, 228, 199);
 }
 
-.picture {
-  width: 45vmin;
-  height: 80vmin;
-  margin-top: 4rem
+.aboutPage a {
+  text-decoration: none;
+  margin: 0 5% 0 5%;
 }
+
+.info {
+  font-size: 2em
+} 
+
+.projectsPage {
+  background-color: black;
+}
+
+.resumePage {
+  margin: 0 auto;
+  border: 40px solid black;
+  max-width: 90%;
+  background-color: rgb(251, 228, 199);
+  font-size: 2em;
+}
+
+.info {
+  margin: 0 auto;
+  max-width: 75%;
+}
+
+.resumePage h2 {
+  text-decoration: underline;
+}
+
+.resumePage span {
+  font-style: italic;
+}
+
+.experience {
+  margin: 0 auto;
+  max-width: 75%
+}
+
+.education {
+  margin: 0 auto;
+  max-width: 75%
+}
+
+.contactPage {
+  border: 40px solid black;
+  margin: 0 auto;
+  max-width: 90%;
+  background-color: rgb(251, 228, 199);
+  font-size: 2em
+}
+
+.contactPage a {
+  text-decoration: none;
+  color: blue
+}
+
+
+

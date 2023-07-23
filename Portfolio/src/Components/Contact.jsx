@@ -2,9 +2,9 @@ const Contact = () => {
     return (
         <>
         <h1>Contact</h1>
-        <div className="contactp=Page">
-        <p>Email me at ethanflatt@gmail.com</p>
-        <p>Check out my LinkedIn at https://www.linkedin.com/in/ethanflatt1/</p>
+        <div className="contactPage">
+            <p>Email me at <a href="mailto:ethanflatt@gmail.com">ethanflatt1@gmail.com</a></p>
+            <p>Check out my <a href="https://www.linkedin.com/in/ethanflatt1">Linkedin</a></p>
         </div>
         </>
         
