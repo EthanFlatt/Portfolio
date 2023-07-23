@@ -1,8 +1,9 @@
 const Resume = () => {
     return (
-        <>
-        <h1>Resume</h1>
+     
+    
         <div className="resumePage">
+            <h1>Resume</h1>
             <div className="experience">
                 <h2>Experience</h2>
                 <h3>EFL instructor at Gloria English school in Taiwan <span>&nbsp;&nbsp; March 2022 - March 2023</span></h3>
@@ -19,7 +20,7 @@ const Resume = () => {
                 <p>bachelor of Arts in English, Philosophy</p>
             </div>
         </div>
-        </>
+      
     )
 }
 
