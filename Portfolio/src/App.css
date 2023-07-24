@@ -39,11 +39,13 @@
 }
 
 .info {
-  font-size: 2em
+  margin: 0 auto;
+  max-width: 85%;
+  font-size: 2em;
 } 
 
 .picture img{
-  max-width: 40%;
+  max-width: 20%;
 }
 
 .projectPage {
@@ -54,17 +56,31 @@
   font-size: 2em;
 }
 
+.projectPage h2, ul, li {
+  margin: 0 auto;
+  max-width: 85%
+}
+
+.projectPage h2 {
+  margin: 1em auto 1em auto;
+}
+
+.projectPage li {
+  text-align: left;
+  margin: .5em auto .5em auto;;
+}
+
+.projectPage a {
+  text-decoration: none;
+  color:rgb(195, 124, 38)
+}
+
 .resumePage {
   margin: 0 auto;
   border: 40px solid black;
   max-width: 90%;
   background-color: rgb(251, 228, 199);
   font-size: 2em;
-}
-
-.info {
-  margin: 0 auto;
-  max-width: 75%;
 }
 
 .resumePage h2 {
@@ -77,12 +93,12 @@
 
 .experience {
   margin: 0 auto;
-  max-width: 75%
+  max-width: 85%
 }
 
 .education {
   margin: 0 auto;
-  max-width: 75%
+  max-width: 85%
 }
 
 .contactPage {
@@ -91,11 +107,6 @@
   max-width: 90%;
   background-color: rgb(251, 228, 199);
   font-size: 2em;
-}
-
-.contactPage a {
-  text-decoration: none;
-  color: blue
 }
 
 .contactPage form input {
@@ -117,6 +128,7 @@
 }
 
 .footer img {
+  margin-top: .8em;
   height: 14em;
   width: 14em;
 }

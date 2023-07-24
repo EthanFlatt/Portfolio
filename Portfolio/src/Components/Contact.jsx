@@ -25,7 +25,7 @@ setFormState({...formState, [event.target.id] : event.target.value})
 
     return (
             <div className="contactPage">
-                <h1>Contact Me</h1>
+                <h1>Contact Me (Work in Progress)</h1>
                 <form onSubmit={handleSubmit}>
                 <label htmlFor="issueType">Name</label>
                 <input type="text"
