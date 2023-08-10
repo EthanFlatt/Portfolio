@@ -2,13 +2,16 @@ import React from 'react';
 import Footer from './Footer'
 import { useForm, ValidationError } from '@formspree/react';
 
+function refreshPage() {
+    window.location.reload(false);
+  }
 const Contact = () => { 
     const [state, handleSubmit] = useForm("mdoreerg");
         if (state.succeeded) {
             return <div className="contactModal">
                 <div className="contactModalContent">
                 Thanks for the message!
-                <button>Ok</button>
+                <button onClick={refreshPage}>Ok</button>
                 </div>
             </div>
         }
