@@ -1,9 +1,10 @@
 import Picture from '../assets/IMG_0574.PNG'
+import Footer from './Footer'
 
 
 const About = () => {
     return (
-        
+        <>
         <div className="aboutPage">
             <div className="info">
                 <h1>About Me</h1>
@@ -19,6 +20,10 @@ const About = () => {
                 <p><a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="100" height="100"/> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="100" height="100"/> </a></p>
             </div>
         </div>
+        <div className="aboutFooter">
+            <Footer></Footer>
+        </div>
+        </>
     )
 }
 
