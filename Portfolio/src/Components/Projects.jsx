@@ -1,6 +1,8 @@
+import Footer from './Footer'
+
 const Projects = () => {
     return (
-        
+        <>
         <div className="projectPage">
             <h1>Projects (Work in progress)</h1>
             <h2>Hangman <a href="https://github.com/EthanFlatt/Hangman">GitHub</a> <a href="https://hangman-game0.surge.sh/">App</a></h2>
@@ -22,6 +24,10 @@ const Projects = () => {
                 </ul>
             <h2>FeedMe</h2>
         </div>
+        <div className="aboutFooter">
+            <Footer backgroundColor = '#EAF8BF'></Footer>
+        </div>
+        </>
         
     )
 }

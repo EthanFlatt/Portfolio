@@ -21,7 +21,7 @@ const About = () => {
             </div>
         </div>
         <div className="aboutFooter">
-            <Footer></Footer>
+            <Footer backgroundColor = '#96C3CE'></Footer>
         </div>
         </>
     )

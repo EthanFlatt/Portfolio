@@ -1,7 +1,9 @@
+import Footer from './Footer'
+
 const Resume = () => {
     return (
      
-    
+        <>
         <div className="resumePage">
             <h1>Resume</h1>
             <div className="experience">
@@ -20,6 +22,10 @@ const Resume = () => {
                 <p>bachelor of Arts in English, Philosophy</p>
             </div>
         </div>
+        <div className="aboutFooter">
+            <Footer backgroundColor = 'rgb(251, 228, 199)'></Footer>
+        </div>
+        </>
       
     )
 }

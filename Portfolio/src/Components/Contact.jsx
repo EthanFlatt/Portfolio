@@ -1,13 +1,19 @@
 import React from 'react';
+import Footer from './Footer'
 import { useForm, ValidationError } from '@formspree/react';
+
 const Contact = () => { 
     const [state, handleSubmit] = useForm("mdoreerg");
         if (state.succeeded) {
             return <div className="contactModal">
-                Temporary
+                <div className="contactModalContent">
+                Thanks for the message!
+                <button>Ok</button>
+                </div>
             </div>
         }
   return (
+    <>
     <div className="contactPage">
         <h1>Contact Me</h1>
         <form onSubmit={handleSubmit}>
@@ -42,6 +48,10 @@ const Contact = () => {
         </button>
         </form>
     </div>
+    <div className="aboutFooter">
+        <Footer backgroundColor = '#D3C4D1'></Footer>
+    </div>
+    </>
   )
 }
   
