@@ -20,6 +20,19 @@ const Contact = () => {
     <div className="contactPage">
         <h1>Contact Me</h1>
         <form onSubmit={handleSubmit}>
+        <label htmlFor="name">
+            Name
+        </label>
+        <input
+        type="text"
+        id='name'
+        name='name'
+        />
+        <ValidationError 
+        prefix='Name'
+        field='name'
+        errors={state.errors}
+        /> 
         <label htmlFor="email">
         Email Address
         </label>

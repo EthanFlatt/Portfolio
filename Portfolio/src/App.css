@@ -122,15 +122,26 @@
   text-align: left;
 }
 
-
+.contactPage label {
+  text-align: left;
+  margin-left: 0.5em;
+}
 
 .contactPage button {
   width: 7em;
   margin: 0 auto;
+  border: 2px solid purple;
+  border-radius: 100px;
+  background-color: rgb(187, 137, 187);
+  color: white;
+  height: 2em;
+}
+
+.contactPage button:hover {
+  background-color: purple
 }
 
 .contactModal {
-  transition: ease-in-out;
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
   left: 0;
@@ -149,8 +160,13 @@
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
   border: 1px solid #888;
-  height: 10%;
-  width: 50%; /* Could be more or less, depending on screen size */
+  height: 7em;
+  width: 20em; /* Could be more or less, depending on screen size */
+}
+
+.contactModalContent button {
+  width: 7em;
+  margin: 2em auto;
 }
 
   
