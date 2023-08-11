@@ -15,7 +15,7 @@ const Projects = () => {
                     <li>Used Bootstrap and React to build front-end</li>
                     <li>Made working Oauth for users to register a secure account, log in, and log out</li>
                 </ul>
-            <h2>FeedMe</h2>
+            <h2>FeedMe <a href="https://github.com/EthanFlatt/FeedMe-Frontend" target="blank">Frontend</a><a href="https://github.com/EthanFlatt/FeedMe-Backend" target="blank"> Backend</a></h2>
             <img src={FeedMe} alt="" />
                 <ul>
                     <li>Created a full-stack MERN application with full CRUD on the front and back-end that lets users enter ingredients and search for dishes in a database based on ingredients entered</li>
